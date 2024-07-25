@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Overview
+In this website you can search a movie's name in the search bar.Movie's information will be displayed for you by fetching movies from OMDB API whenever the query changes.You can choose the desired movie then will be able to Rate it, and finally it will be added to the list of movies watched by you.<br>This project is built in React(useEffect, data fetching, coustom hooks).
+## deployment
+You can find this project here https://watchwise-xi.vercel.app/
+##  Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
