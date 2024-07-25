@@ -97,7 +97,7 @@ function Logo() {
   return (
     <div className="logo">
       <span role="img">🍿</span>
-      <h1>usePopcorn</h1>
+      <h1>Watch Wise</h1>
     </div>
   );
 }
@@ -291,7 +291,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
       document.title = `Movie | ${title}`;
 
       return function () {
-        document.title = "usePopcorn";
+        document.title = "WatchWise";
         // console.log(`Clean up effect for movie ${title}`);
       };
     },
