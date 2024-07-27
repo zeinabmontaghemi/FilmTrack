@@ -289,7 +289,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
     function () {
       if (!title) return;
       document.title = `Movie | ${title}`;
-
+      //clean up function
       return function () {
         document.title = "Watch Wise";
         // console.log(`Clean up effect for movie ${title}`);
