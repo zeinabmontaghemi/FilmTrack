@@ -1,10 +1,12 @@
 # Overview
 
-In this website you can search a movie's name in the search bar.Movie's information will be displayed for you by fetching movies from OMDB API whenever the query changes.You can choose the desired movie then will be able to Rate it, and finally it will be added to the list of movies watched by you.<br>This project is built in React(useEffect, data fetching, coustom hooks).
+On this website, you can search for a movie using the search bar. Movie information is fetched from the OMDB API and displayed as you type. Once you select the desired movie, you can rate it, and it will be added to your list of watched movies.
+
+This project is built using React, leveraging useEffect for data fetching and custom hooks.
 
 ## deployment
 
-You can find this project here https://watchwise-xi.vercel.app/
+You can find this project [here](https://film-track.vercel.app/)
 
 ##  Getting Started with Create React App
 
